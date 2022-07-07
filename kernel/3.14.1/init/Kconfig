@@ -28,6 +28,9 @@ config BUILDTIME_EXTABLE_SORT
 
 menu "General setup"
 
+config SYSCALL_TEST
+	bool "mysyscall support"
+	
 config BROKEN
 	bool
 

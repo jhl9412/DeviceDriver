@@ -391,6 +391,10 @@
 		CALL(sys_finit_module)
 /* 380 */	CALL(sys_sched_setattr)
 		CALL(sys_sched_getattr)
+#ifdef CONFIG_SYSCALL_TEST
+		CALL(sys_mysyscall)
+#endif
+
 #ifndef syscalls_counted
 .equ syscalls_padding, ((NR_syscalls + 3) & ~3) - NR_syscalls
 #define syscalls_counted

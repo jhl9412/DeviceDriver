@@ -409,6 +409,9 @@
 #define __NR_sched_setattr		(__NR_SYSCALL_BASE+380)
 #define __NR_sched_getattr		(__NR_SYSCALL_BASE+381)
 
+#ifdef CONFIG_SYSCALL_TEST
+#define __NR_mysyscall		(__NR_SYSCALL_BASE+382)
+#endif
 /*
  * The following SWIs are ARM private.
  */

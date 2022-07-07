@@ -26,6 +26,7 @@ obj-y += cpu/
 obj-y += irq/
 obj-y += rcu/
 
+obj-$(CONFIG_SYSCALL_TEST) += test_syscall.o
 obj-$(CONFIG_CHECKPOINT_RESTORE) += kcmp.o
 obj-$(CONFIG_FREEZER) += freezer.o
 obj-$(CONFIG_PROFILING) += profile.o
