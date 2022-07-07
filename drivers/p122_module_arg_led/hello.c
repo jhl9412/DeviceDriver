@@ -48,7 +48,7 @@ static int led_on(void)
 {
 	led_init();
 	led_write(led_value);
-	printk("Hello, world[led_value=%d]\n",led_value);
+	printk("<7>""Hello, world[led_value=%d]\n",led_value);
 	return 0;
 }
 
