@@ -18,16 +18,21 @@ static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
 	{ 0x31a4702a, __VMLINUX_SYMBOL_STR(module_layout) },
-	{ 0x6bc3fbc0, __VMLINUX_SYMBOL_STR(__unregister_chrdev) },
 	{ 0xfe990052, __VMLINUX_SYMBOL_STR(gpio_free) },
-	{ 0x180b4c11, __VMLINUX_SYMBOL_STR(__register_chrdev) },
+	{ 0x6bc3fbc0, __VMLINUX_SYMBOL_STR(__unregister_chrdev) },
 	{ 0x76d07d6e, __VMLINUX_SYMBOL_STR(gpiod_direction_input) },
-	{ 0x5f419491, __VMLINUX_SYMBOL_STR(gpiod_get_raw_value) },
 	{ 0xe4c4b28f, __VMLINUX_SYMBOL_STR(gpiod_direction_output) },
-	{ 0xf816c866, __VMLINUX_SYMBOL_STR(gpio_to_desc) },
 	{ 0x47229b5c, __VMLINUX_SYMBOL_STR(gpio_request) },
-	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x180b4c11, __VMLINUX_SYMBOL_STR(__register_chrdev) },
+	{ 0xbb72d4fe, __VMLINUX_SYMBOL_STR(__put_user_1) },
+	{ 0x97255bdf, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0x5f419491, __VMLINUX_SYMBOL_STR(gpiod_get_raw_value) },
+	{ 0x5f754e5a, __VMLINUX_SYMBOL_STR(memset) },
+	{ 0x687934e9, __VMLINUX_SYMBOL_STR(gpiod_set_raw_value) },
+	{ 0xf816c866, __VMLINUX_SYMBOL_STR(gpio_to_desc) },
+	{ 0x28118cb6, __VMLINUX_SYMBOL_STR(__get_user_1) },
 	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
 	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
 };
 
