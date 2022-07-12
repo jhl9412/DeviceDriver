@@ -1,8 +1,8 @@
-cmd_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/.ledkey_dev.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include -I/home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include -Iarch/arm/include/generated  -Iinclude -I/home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I/home/ubuntu/udoo_linux_bsp/kernel/3.14.1/include/uapi -Iinclude/generated/uapi -include /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -std=gnu89 -O2 -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(ledkey_dev)"  -D"KBUILD_MODNAME=KBUILD_STR(ledkey_dev)" -c -o /home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/.tmp_ledkey_dev.o /home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.c
+cmd_/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/.kerneltimer_dev.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include -I/home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include -Iarch/arm/include/generated  -Iinclude -I/home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I/home/ubuntu/udoo_linux_bsp/kernel/3.14.1/include/uapi -Iinclude/generated/uapi -include /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -std=gnu89 -O2 -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kerneltimer_dev)"  -D"KBUILD_MODNAME=KBUILD_STR(kerneltimer_dev)" -c -o /home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/.tmp_kerneltimer_dev.o /home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.c
 
-source_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o := /home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.c
+source_/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.o := /home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.c
 
-deps_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o := \
+deps_/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.o := \
   include/linux/init.h \
     $(wildcard include/config/broken/rodata.h) \
     $(wildcard include/config/modules.h) \
@@ -419,7 +419,6 @@ deps_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o := \
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
-  /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include/asm/uaccess.h \
   include/linux/fs.h \
     $(wildcard include/config/fs/posix/acl.h) \
     $(wildcard include/config/security.h) \
@@ -476,6 +475,34 @@ deps_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o := \
   include/uapi/linux/fcntl.h \
   /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include/uapi/asm/fcntl.h \
   /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/include/uapi/asm-generic/fcntl.h \
+  include/linux/slab.h \
+    $(wildcard include/config/slab/debug.h) \
+    $(wildcard include/config/kmemcheck.h) \
+    $(wildcard include/config/failslab.h) \
+    $(wildcard include/config/slob.h) \
+    $(wildcard include/config/slab.h) \
+    $(wildcard include/config/slub.h) \
+    $(wildcard include/config/debug/slab.h) \
+  include/linux/kmemleak.h \
+    $(wildcard include/config/debug/kmemleak.h) \
+  include/linux/slub_def.h \
+    $(wildcard include/config/slub/stats.h) \
+    $(wildcard include/config/memcg/kmem.h) \
+  /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include/asm/uaccess.h \
+  /home/ubuntu/udoo_linux_bsp/kernel/3.14.1/arch/arm/include/asm/io.h \
+    $(wildcard include/config/need/mach/io/h.h) \
+    $(wildcard include/config/pci.h) \
+    $(wildcard include/config/pcmcia/soc/common.h) \
+    $(wildcard include/config/isa.h) \
+    $(wildcard include/config/pccard.h) \
+  include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/no/generic/pci/ioport/map.h) \
+    $(wildcard include/config/generic/pci/iomap.h) \
+  include/xen/xen.h \
+    $(wildcard include/config/xen.h) \
+    $(wildcard include/config/xen/dom0.h) \
+    $(wildcard include/config/xen/pvh.h) \
+  include/linux/ioport.h \
   include/linux/gpio.h \
     $(wildcard include/config/gpiolib.h) \
     $(wildcard include/config/arch/have/custom/gpio/h.h) \
@@ -505,8 +532,7 @@ deps_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o := \
     $(wildcard include/config/of/gpio.h) \
   include/linux/gpio/consumer.h \
     $(wildcard include/config/gpio/sysfs.h) \
-  /home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ioctl_test.h \
 
-/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o: $(deps_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o)
+/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.o: $(deps_/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.o)
 
-$(deps_/home/ubuntu/udoo_linux_bsp/drivers/p306_ledkey_ioctl_rw/ledkey_dev.o):
+$(deps_/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_dev_kmalloc/kerneltimer_dev.o):
