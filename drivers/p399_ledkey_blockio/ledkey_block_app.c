@@ -4,7 +4,6 @@
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include "icotl_test.h"
 #define DEVICE_FILENAME  "/dev/ledkey_block"
 
 int main()
